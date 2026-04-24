@@ -16,7 +16,8 @@ import { MapView } from "@/components/map-view"
 import { COUNTRY_LABELS, COUNTRY_FLAGS, VENUE_TYPE_LABELS, SEASON_LABELS } from "@/types/venue"
 import { formatDate } from "@/lib/format"
 import { getShortlistedVenueIds } from "@/server-actions/toggle-shortlist"
-import { Share2, Star } from "lucide-react"
+import { Star } from "lucide-react"
+import { ShareButton } from "@/components/share-button"
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
@@ -113,16 +114,7 @@ export default async function VenueDetailPage({ params }: { params: Promise<{ sl
                 <h1 className="font-serif text-4xl md:text-5xl font-semibold leading-tight">{venue.name}</h1>
                 <div className="flex items-center gap-2 mt-1 shrink-0">
                   <ShortlistToggle venueId={venue.id} isShortlisted={isShortlisted} variant="button" />
-                  <button
-                    className="p-2 rounded-full border border-border hover:bg-muted transition-colors"
-                    aria-label="Share this venue"
-                    onClick={() => {
-                      if (navigator.share) navigator.share({ title: venue.name, url: window.location.href })
-                      else navigator.clipboard?.writeText(window.location.href)
-                    }}
-                  >
-                    <Share2 className="h-4 w-4" />
-                  </button>
+                  <ShareButton title={venue.name} />
                 </div>
               </div>
               {avgRating != null && (
