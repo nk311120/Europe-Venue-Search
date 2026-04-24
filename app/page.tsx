@@ -31,7 +31,7 @@ export default async function HomePage() {
     { code: "FR", name: "France", region: "Provence · Loire · Côte d'Azur", img: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=600&q=80", count: 12 },
     { code: "ES", name: "Spain", region: "Mallorca · Andalusia · Catalonia", img: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=600&q=80", count: 10 },
     { code: "PT", name: "Portugal", region: "Douro · Alentejo · Sintra", img: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=600&q=80", count: 7 },
-    { code: "UK", name: "United Kingdom", region: "Cotswolds · Scotland · Cornwall", img: "https://images.unsplash.com/photo-1520637836993-5b480e1e60c4?w=600&q=80", count: 7 },
+    { code: "UK", name: "United Kingdom", region: "Cotswolds · Scotland · Cornwall", img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80", count: 7 },
   ]
 
   const howItWorks = [

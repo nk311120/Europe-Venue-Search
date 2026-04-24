@@ -48,6 +48,7 @@ export function Header({ shortlistCount = 0, user: initialUser }: HeaderProps) {
 
   const navLinks = [
     { href: "/venues", label: "Venues" },
+    { href: "/map", label: "Map" },
     { href: "/shortlist", label: "Shortlist" },
     { href: "/about", label: "About" },
   ]
