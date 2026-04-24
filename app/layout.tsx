@@ -21,13 +21,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Vow & Venue",
-    default: "Vow & Venue — European Destination Wedding Venues",
+    template: "%s | Lieu",
+    default: "Lieu — European Destination Wedding Venues",
   },
   description:
     "Discover extraordinary destination wedding venues across Italy, France, Spain, Portugal, and the United Kingdom. Editorial, curated, and inquiry-ready.",
   openGraph: {
-    siteName: "Vow & Venue",
+    siteName: "Lieu",
     type: "website",
   },
 };

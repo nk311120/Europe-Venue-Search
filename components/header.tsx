@@ -66,7 +66,7 @@ export function Header({ shortlistCount = 0, user: initialUser }: HeaderProps) {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <span className="font-serif text-xl font-semibold tracking-tight text-foreground group-hover:text-accent transition-colors">
-              Vow &amp; Venue
+              Lieu
             </span>
           </Link>
 

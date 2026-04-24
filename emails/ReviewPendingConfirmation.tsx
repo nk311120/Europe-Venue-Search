@@ -25,7 +25,7 @@ export default function ReviewPendingConfirmation({
         taking the time to share your story.
       </Text>
       <Text style={body}>
-        — The Vow &amp; Venue team
+        — The Lieu team
       </Text>
     </EmailLayout>
   )

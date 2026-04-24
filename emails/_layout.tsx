@@ -27,14 +27,14 @@ export function EmailLayout({
       <Body style={body}>
         <Container style={container}>
           <Section style={header}>
-            <Text style={logo}>Vow & Venue</Text>
+            <Text style={logo}>Lieu</Text>
             <Text style={tagline}>European Destination Wedding Venues</Text>
           </Section>
           <Section style={content}>{children}</Section>
           <Hr style={divider} />
           <Section style={footer}>
             <Text style={footerText}>
-              © {new Date().getFullYear()} Vow &amp; Venue · Helping couples discover extraordinary venues across Europe
+              © {new Date().getFullYear()} Lieu · Helping couples discover extraordinary venues across Europe
             </Text>
             <Text style={footerText}>
               <a href={siteUrl} style={link}>{siteUrl.replace("https://", "").replace("http://", "")}</a>

@@ -41,7 +41,7 @@ export default async function HomePage() {
   ]
 
   const testimonials = [
-    { name: "Sophie & James", location: "London", quote: "We found our Provençal farmhouse through Vow & Venue and couldn't be happier. The inquiry process was so easy — the venue replied within a day.", venue: "Domaine de la Lumière, Provence" },
+    { name: "Sophie & James", location: "London", quote: "We found our Provençal farmhouse through Lieu and couldn't be happier. The inquiry process was so easy — the venue replied within a day.", venue: "Domaine de la Lumière, Provence" },
     { name: "Emma & Lucas", location: "New York", quote: "The filters made it effortless to narrow down venues in Tuscany that could host our 120 guests with on-site accommodation. Absolute game-changer.", venue: "Villa Serafina, Tuscany" },
     { name: "Claire & Tomás", location: "Sydney", quote: "We shortlisted six venues and sent one message. Every single venue replied within three days. We booked our Andalusian masia two weeks later.", venue: "La Finca del Olivar, Andalusia" },
   ]
@@ -79,7 +79,7 @@ export default async function HomePage() {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white/10 text-base px-8">
+            <Button size="lg" variant="outline" asChild className="border-white text-white bg-transparent hover:bg-white/10 text-base px-8">
               <Link href="/about">How it works</Link>
             </Button>
           </div>

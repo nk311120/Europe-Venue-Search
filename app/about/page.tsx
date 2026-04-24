@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Learn how Vow & Venue helps couples find extraordinary European wedding venues.",
+  description: "Learn how Lieu helps couples find extraordinary European wedding venues.",
 }
 
 export default function AboutPage() {
@@ -21,7 +21,7 @@ export default function AboutPage() {
           Planning a destination wedding is one of the most exciting — and daunting — things a couple can do. The venue sets the stage for everything: the ceremony, the dinner, the dancing that carries on past midnight. It deserves more than a hurried search across a dozen unfamiliar websites.
         </p>
         <p>
-          Vow &amp; Venue was built to make that search joyful. We&apos;ve personally researched and catalogued 50 remarkable venues across Italy, France, Spain, Portugal, and the United Kingdom — from vine-covered chateaux in Provence to whitewashed villas on the Amalfi coast.
+          Lieu was built to make that search joyful. We&apos;ve personally researched and catalogued 50 remarkable venues across Italy, France, Spain, Portugal, and the United Kingdom — from vine-covered chateaux in Provence to whitewashed villas on the Amalfi coast.
         </p>
         <p>
           Every listing is hand-selected for its setting, character, and ability to host 60–150 guests in the style that destination weddings deserve. We show you the honest detail — capacity, catering, accommodation, accessibility — so you can shortlist with confidence and inquire without friction.

@@ -35,7 +35,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="font-serif text-xl font-semibold text-background hover:text-accent transition-colors">
-              Vow &amp; Venue
+              Lieu
             </Link>
             <p className="mt-3 text-sm text-background/60 leading-relaxed max-w-xs">
               Helping couples discover extraordinary wedding venues across Europe — from Tuscan vineyards to Scottish castles.
@@ -97,7 +97,7 @@ export function Footer() {
 
         <div className="mt-16 pt-8 border-t border-background/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-background/40">
-            © {new Date().getFullYear()} Vow &amp; Venue. All rights reserved.
+            © {new Date().getFullYear()} Lieu. All rights reserved.
           </p>
           <nav className="flex gap-6">
             {company.map((c) => (
